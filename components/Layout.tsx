@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
+import styles from './Layout.module.scss'
 
 type Props = {
   children?: ReactNode
@@ -16,7 +17,7 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     </Head>
     <header>
       <img src="/icons/small-logo.svg" />
-      <h1>Queerantine Online</h1>
+      <h1 className={styles.header}>Queerantine Online</h1>
       <nav>
         <Link href="/">
           <a>Home</a>
