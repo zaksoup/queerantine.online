@@ -1,4 +1,11 @@
+@font-face {
+    font-family: 'Cardo';
+    src: url('../public/fonts/Cardo-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .header {
     font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Cardo', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

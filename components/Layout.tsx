@@ -15,6 +15,8 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header>
+      <img src="/icons/small-logo.svg" />
+      <h1>Queerantine Online</h1>
       <nav>
         <Link href="/">
           <a>Home</a>
@@ -22,10 +24,6 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
       </nav>
     </header>
     {children}
-    <footer>
-      <hr />
-      <span>Feet</span>
-    </footer>
   </div>
 )
 
